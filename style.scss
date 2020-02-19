@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Bai+Jamjuree: 400, 600&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Bai+Jamjuree: 400,600&display=swap');
 
 
 $mobile: 375px;
@@ -11,6 +11,7 @@ $grayishBlue: hsl(201, 11%, 66%);
 
 
 body {
+    max-width: $desktop;
     font-size: 18px;
     font-family: 'Bai Jamjuree', sans-serif;
     margin: 0 auto;
@@ -21,5 +22,409 @@ body {
 header {
     .bgMobile {
         display: none;
+    }
+    .logo {
+       position: absolute;
+       top: 15%;
+       left: 45.5%;
+    }
+    h1 {
+       margin-top: -3.75rem;
+       text-align: center;
+       font-weight: 600;
+       font-size: 2.75rem;
+       color: $darkGrayishBlue;
+    }
+    p {
+        text-align: center;
+        margin: 0 auto;
+        width: 700px;
+        max-width: 100%;
+        color: $grayishBlue;
+        margin-bottom: 3rem;
+        font-size: 1.25rem;
+    }
+    .btnBox {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 9rem;
+    }
+    .btnOs {
+        background-color: $strongCyan;
+        color: white;
+        width: 225px;
+        height: 50px;
+        margin-right: 2rem;
+        border-radius: 25px;
+        border: none;
+        font-size: 1rem;
+        -moz-box-shadow:    0px -3px 0px 0px  darkcyan;
+        -webkit-box-shadow: 0px -3px 0px 0px  darkcyan;
+        box-shadow: inset  0px -3px 0px 0px darkcyan;
+    }
+    .mac {
+        background-color: $lightBlue;
+        color: white;
+        width: 225px;
+        height: 50px;
+        border-radius: 25px;
+        border: none;
+        font-size: 1rem;
+        -moz-box-shadow:    0px -3px 0px 0px  darkslateblue;
+        -webkit-box-shadow: 0px -3px 0px 0px  darkslateblue;
+        box-shadow: inset  0px -3px 0px 0px darkslateblue;
+    }
+    .btnOs:hover {
+        cursor: pointer;
+        opacity: .75;
+    }
+    .mac:hover {
+        cursor: pointer;
+        opacity: .75;
+    }
+}
+
+.top {
+    margin-bottom: 9rem;
+    .track {
+        text-align: center;
+        font-weight: 600;
+        color: $darkGrayishBlue;
+    }
+    p {
+        text-align: center;
+        margin: 0 auto;
+        width: 800px;
+        max-width: 100%;
+        color: $grayishBlue;
+        margin-bottom: 5.5rem;
+        font-size: 1.25rem;
+    }
+    img {
+        margin-left: -3rem;
+        overflow: hidden;
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+        width: 400px;
+        max-width: 100%;
+        float: right;
+        margin-right: 13rem;
+        margin-top: 3rem;
+    }
+
+    .box1 {
+        margin-bottom: -4rem;
+        h3 {
+            color: $darkGrayishBlue;
+            font-size: 1.50rem;
+            margin-bottom: .75rem;
+            
+        }
+        p {
+            font-size: 1rem;
+            width: 350px;
+            text-align: left;
+            margin-left: 0rem;
+            line-height: 2;
+        }
+    }
+    .box2 {
+        margin-bottom: -4rem;
+        h3 {
+            color: $darkGrayishBlue;
+            font-size: 1.50rem;
+            margin-bottom: .75rem;
+            
+        }
+        p {
+            font-size: 1rem;
+            width: 350px;
+            text-align: left;
+            margin-left: 0rem;
+            line-height: 2;
+        }
+    }
+    .box3 {
+        h3 {
+            color: $darkGrayishBlue;
+            font-size: 1.50rem;
+            margin-bottom: .75rem;
+            
+        }
+        p {
+            font-size: 1rem;
+            width: 350px;
+            text-align: left;
+            margin-left: 0rem;
+            line-height: 2;
+        }
+    }
+
+
+}
+
+.middle {
+    .access {
+        text-align: center;
+        font-weight: 600;
+        color: $darkGrayishBlue;
+    }
+    p {
+        text-align: center;
+        margin: 0 auto;
+        width: 800px;
+        max-width: 100%;
+        color: $grayishBlue;
+        margin-bottom: 5.5rem;
+        font-size: 1.25rem;
+    }
+    .devices {
+       margin-left: 16.9rem;
+    }
+    .supercharge {
+        text-align: center;
+        font-weight: 600;
+        color: $darkGrayishBlue;
+        p {
+            font-weight: 400;
+        }
+    }
+
+    .iconBox {
+        display: flex;
+        flex-direction: row;
+        margin-top: -.5rem;
+        
+        .iconLeft {
+            margin-top: -.5rem;
+            width: 375px;
+            max-width: 100%;
+            margin-left: 9.5rem;
+            img {
+                margin-left: 11rem;
+            }
+            h4 {
+                font-size: 1.5rem;
+                color: $darkGrayishBlue;
+                text-align: center;
+            }
+            p {
+                margin-top: -1rem;;
+                font-size: 1rem;
+                width: 350px;
+                line-height: 1.75;
+            }
+           
+        }
+        .iconCenter {
+            width: 375px;
+            max-width: 100%;
+            
+            width: 375px;
+            max-width: 100%;
+            img {
+                margin-left: 11rem;
+            }
+            h4 {
+                font-size: 1.5rem;
+                color: $darkGrayishBlue;
+                text-align: center;
+            }
+            p {
+                margin-top: -1rem;;
+                font-size: 1rem;
+                width: 350px;
+                line-height: 1.75;
+            }
+        }
+        .iconRight {
+            
+            width: 375px;
+            max-width: 100%;
+
+            width: 375px;
+            max-width: 100%;
+            img {
+                margin-left: 11rem;
+            }
+            h4 {
+                font-size: 1.5rem;
+                color: $darkGrayishBlue;
+                text-align: center;
+            }
+            p {
+                margin-top: -1rem;;
+                font-size: 1rem;
+                width: 350px;
+                line-height: 1.75;
+            }
+        }
+    }
+
+}
+
+.bottom {
+
+    .logoBox {
+        margin-left: 7.25rem;
+        margin-right: 7.25rem;
+        display: flex;
+        justify-content: space-around;
+        #microsoft {
+            height: 35px;
+            padding-top: 1rem;
+        }
+        #vector {
+            height: 35px;
+            padding-top: 1rem;
+        }
+        #ibm {
+            height: 50px;
+        }
+        #google {
+            height: 46px;
+            padding-top: .5rem;
+        }
+
+        
+    }
+    .clipboard {
+        margin-top: 10.25rem;
+        text-align: center;
+        font-weight: 600;
+        color: $darkGrayishBlue;
+    }
+    .btnBox {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 9rem;
+    }
+    .btnOs {
+        background-color: $strongCyan;
+        color: white;
+        width: 225px;
+        height: 50px;
+        margin-right: 2rem;
+        border-radius: 25px;
+        border: none;
+        font-size: 1rem;
+        -moz-box-shadow:    0px -3px 0px 0px  darkcyan;
+        -webkit-box-shadow: 0px -3px 0px 0px  darkcyan;
+        box-shadow: inset  0px -3px 0px 0px darkcyan;
+    }
+    .mac {
+        background-color: $lightBlue;
+        color: white;
+        width: 225px;
+        height: 50px;
+        border-radius: 25px;
+        border: none;
+        font-size: 1rem;
+        -moz-box-shadow:    0px -3px 0px 0px  darkslateblue;
+        -webkit-box-shadow: 0px -3px 0px 0px  darkslateblue;
+        box-shadow: inset  0px -3px 0px 0px darkslateblue;
+    }
+    .btnOs:hover {
+        cursor: pointer;
+        opacity: .75;
+    }
+    .mac:hover {
+        cursor: pointer;
+        opacity: .75;
+    }
+    p {
+        text-align: center;
+        margin: 0 auto;
+        width: 750px;
+        max-width: 100%;
+        color: $grayishBlue;
+        margin-bottom: 3rem;
+        font-size: 1.25rem;
+        font-weight: 400;
+    }
+}
+
+.footer {
+    background-color: hsla(201, 11%, 66%, .1);
+    height: 150px;
+    .logo {
+        
+        width: 55px;
+        height: auto;
+        margin-left: 10.25rem;
+        margin-top: 3rem;
+    }
+    .linkBox {
+        width: 550px;
+        margin-left: 25rem;
+       
+        margin-top: -3.5rem;
+        
+        
+        .link1 {
+        
+            width: 100px;
+           a {
+            color: $darkGrayishBlue;
+            text-decoration: none;
+           }
+           a:hover {
+               color: $strongCyan;
+           }
+        }
+        .link2 {
+          
+            width: 150px;
+            margin-left: 12rem;
+            margin-top: -3rem;
+            a {
+                color: $darkGrayishBlue;
+                text-decoration: none;
+               }
+               a:hover {
+                color: $strongCyan;
+            }   
+        }
+        .link3 {
+        
+            width: 150px;
+            float: right;
+            margin-top: -3rem;
+            a {
+                color: $darkGrayishBlue;
+                text-decoration: none;
+               }
+               a:hover {
+                color: $strongCyan;
+            }   
+        }
+        
+       
+    }
+    .sBox {
+       float: right;
+       margin-right: 6rem;
+       margin-top: -2rem;
+       a {
+           padding: 0 10px;
+       }
+       
+       .social:hover,
+       .social:focus {
+        filter: invert(60%) sepia(54%) saturate(528%) hue-rotate(122deg) brightness(90%) contrast(94%);
+       }
+    }
+}
+
+.attribution {
+    float: right;
+    margin-right: 5rem;
+    margin-top: -2rem; 
+    opacity: .5;
+     a {
+        text-decoration: none;
+        
     }
 }
