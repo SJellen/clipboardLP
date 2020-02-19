@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+<link rel="stylesheet" href="style.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <title>Frontend Mentor | Clipboard landing page</title>
@@ -16,52 +16,130 @@
 </head>
 <body>
 
-  A history of everything you copy
+  <header class="header">
+    <img src="./images/bg-header-desktop.png" alt="background" class="bgDesk">
+    <img src="./images/bg-header-mobile.png" alt="mobile background" class="bgMobile">
+    <img src="./images/logo.svg" alt="clipboard logo" class="logo">
 
-  Clipboard allows you to track and organize everything you 
-  copy. Instantly access your clipboard on all your devices.
+    <h1 class="history">
+      A history of everything you copy
+    </h1>
+    <p>
+      Clipboard allows you to track and organize everything you 
+      copy. Instantly access your clipboard on all your devices.
+    </p>
+    <button class="btnOs">
+      Download for iOS
+    </button>
+    <button class="mac">
+      Download for Mac
+    </button>
+  </header>
 
-  Download for iOS
-  Download for Mac
+  <div class="top">
+    <h1 class="track">
+      Keep track of your snippets
+    </h1>
+    <p>
+      Clipboard instantly stores any item you copy in the cloud, 
+      meaning you can access your snippets immediately on all your 
+      devices. Our Mac and iOS apps will help you organize everything.
+    </p>
 
-  Keep track of your snippets
+    <img src="./images/image-computer.png" alt="computer" class="monitor">
 
-  Clipboard instantly stores any item you copy in the cloud, 
-  meaning you can access your snippets immediately on all your 
-  devices. Our Mac and iOS apps will help you organize everything.
 
-  Quick Search
+    <div class="box1">
+      <h3>
+        Quick Search
+      </h3>
+      <p>
+        Easily search your snippets by content, category, web address, application, and more.
+      </p>
+    </div>
 
-  Easily search your snippets by content, category, web address, application, and more.
+    <div class="box2">
+      <h3>
+        iCloud Sync
+      </h3>
+      <p>
+        Instantly saves and syncs snippets across all your devices.
+      </p>
+    </div>
 
-  iCloud Sync
+    <div class="box3">
+      <h3>
+        Complete History
+      </h3>
+      <p>
+        Retrieve any snippets from the first moment you started using the app.
+      </p>
+    </div>
+   
+  </div>
 
-  Instantly saves and syncs snippets across all your devices.
+  <div class="middle">
 
-  Complete History
+    <h1 class="access">
+      Access Clipboard anywhere
+    </h1>
+    <p>
+      Whether you’re on the go, or at your computer, you can access all your Clipboard 
+      snippets in a few simple clicks.
+    </p>
 
-  Retrieve any snippets from the first moment you started using the app.
+    <img src="./images/image-devices.png" alt="devices" class="devices">
 
-  Access Clipboard anywhere
 
-  Whether you’re on the go, or at your computer, you can access all your Clipboard 
-  snippets in a few simple clicks.
+    <div class="supercharge">
+      <h3>
+        Supercharge your workflow
+      </h3>
+      <p>
+        We’ve got the tools to boost your productivity.
+      </p>
+    </div>
 
-  Supercharge your workflow
+    <div class="iconBox">
+      <div class="iconLeft">
+        <img src="./images/icon-blacklist.svg" alt="blacklists" class="blacklists">
+        <h4>
+          Create blacklists
+        </h4>
+       <p>
+        Ensure sensitive information never makes its way to your clipboard by excluding certain sources.
+       </p>
+      </div>
 
-  We’ve got the tools to boost your productivity.
+      <div class="centerLeft">
+        <img src="./images/icon-text.svg" alt="text" class="text">
+        <h4>
+          Plain text snippets
+        </h4>
+       <p>
+        Remove unwanted formatting from copied text for a consistent look.
+       </p>
+      </div>
 
-  Create blacklists
+      <div class="iconLeft">
+        <img src="./images/icon-preview.svg" alt="preview" class="preview">
+        <h4>
+          Sneak preview
+        </h4>
+       <p>
+        Quick preview of all snippets on your Clipboard for easy access.
+       </p>
+      </div>
+    </div>
+  </div>
 
-  Ensure sensitive information never makes its way to your clipboard by excluding certain sources.
+  
 
-  Plain text snippets
 
-  Remove unwanted formatting from copied text for a consistent look.
+  
+  
 
-  Sneak preview
 
-  Quick preview of all snippets on your Clipboard for easy access.
 
   Clipboard for iOS and Mac OS
 
