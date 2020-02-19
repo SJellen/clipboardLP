@@ -428,3 +428,77 @@ header {
         
     }
 }
+
+@media only screen and (max-width: 1340px) {
+    .top {
+        img.monitor {
+            margin-left: -10rem;
+        }
+       
+    }
+    .middle {
+        .devices {
+            margin-left: 12rem;
+        }
+        .iconBox {
+            margin-left: -3rem;
+        }
+    }
+    .footer {
+        img.logo {
+            margin-left: 5rem;
+        }
+        .linkBox {
+            margin-left: 15rem;
+        }
+        div.sbox {
+            margin-right: 10rem;
+        }
+    }
+}
+
+@media only screen and (max-width: 1220px) {
+    .top {
+        img.monitor {
+            margin-left: -20rem;
+        }
+       
+    }
+    .middle {
+        .devices {
+            margin-left: 6rem;
+        }
+        .iconBox {
+            margin-left: -8rem;
+        }
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    .top {
+        .container {
+            margin-right: 4rem;
+        }
+    }
+    .middle {
+        .iconBox {
+            margin-left: -8rem;
+        }
+        div.iconLeft {
+           min-width: 200px;
+        }
+        div.iconCenter {
+            min-width: 200px;
+        }
+        div.iconRight {
+            min-width: 200px;
+        }
+        .bottom {
+            div.logoBox {
+               
+               
+            }
+            
+        }
+    }
+}
