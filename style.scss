@@ -846,19 +846,19 @@ header {
 .middle {
     .iconBox {
         flex-direction: column;
-        margin-left: 5%;
+        margin-left: 1%;
         .iconLeft {
             margin: 0 auto;
             width: 90%;
             img {
-                margin-left: 50%;
+                margin-left: 47.5%;
             }
         }
         .iconCenter {
             margin: 0 auto;
             width: 90%;
             img {
-                margin-left: 50%;
+                margin-left: 47.5%;
             }
            
         }
@@ -866,7 +866,7 @@ header {
             margin: 0 auto;
             width: 90%;
             img {
-                margin-left: 50%;
+                margin-left: 47.5%;
             }
         }
     }
@@ -927,13 +927,47 @@ header {
         }
     }
     div.sBox {
-        margin-right: 40%;
-        margin-top: 2rem;
+        margin-right: 4rem;
+        margin-top: 6rem;
+        
+        
     }
     
 }
 
+}
 
 
 
+@media only screen and (max-width: 510px) {
+    .header {
+        img.logo {
+           left: 35%;
+        }
+    }
+
+
+
+    .bottom {
+        .logoBox {
+            margin-left: 2rem;
+        }
+        .clipboard {
+           h1 {
+               width: 90%;
+               margin-left: 1rem;
+           }
+        }
+    }
+
+    .footer {
+        img.logo {
+            margin-left: 48%;
+            margin-bottom: -4rem;
+        }
+        .linkBox {
+          margin: 0 auto;
+          border: 1px solid red;
+        }
+    }
 }
