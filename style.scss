@@ -967,7 +967,90 @@ header {
         }
         .linkBox {
           margin: 0 auto;
-          border: 1px solid red;
+          
         }
     }
+}
+
+
+@media only screen and (max-width: 415px) {
+    body {
+        max-width: $mobile;
+        margin: 0 auto;
+    }
+
+    .top {
+        img.monitor {
+            margin-left: 1rem;
+        }
+    }
+
+.middle {
+    .iconBox {
+        
+        .iconLeft {
+            margin: 0 auto;
+            width: 90%;
+            img {
+                margin-left: 42.5%;
+            }
+        }
+        .iconCenter {
+            margin: 0 auto;
+            width: 90%;
+            img {
+                margin-left: 42.5%;
+            }
+           
+        }
+        .iconRight {
+            margin: 0 auto;
+            width: 90%;
+            img {
+                margin-left: 42.5%;
+            }
+        }
+    }
+}
+
+
+.footer {
+    height: 500px;
+    img.logo {
+       margin-left: 45%;
+    }
+    .linkBox {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 60%;
+        height: auto;
+        
+        .link1 {
+            padding-top: 5rem;
+            margin-left: 2rem;
+            
+            line-height: 2;
+        }
+        .link2 {
+            margin-left: .5rem;
+            line-height: 2;
+           
+        }
+        .link3 {
+            margin-left: .5rem;
+            line-height: 2;
+            
+        }
+    }
+    div.sBox {
+        margin-right: 6rem;
+        margin-top: 2rem;
+        
+        
+    }
+    
+}
+
+
 }

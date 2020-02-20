@@ -889,7 +889,72 @@ header .mac:hover {
   }
   .footer .linkBox {
     margin: 0 auto;
-    border: 1px solid red;
+  }
+}
+
+@media only screen and (max-width: 415px) {
+  body {
+    max-width: 375px;
+    margin: 0 auto;
+  }
+  .top img.monitor {
+    margin-left: 1rem;
+  }
+  .middle .iconBox .iconLeft {
+    margin: 0 auto;
+    width: 90%;
+  }
+  .middle .iconBox .iconLeft img {
+    margin-left: 42.5%;
+  }
+  .middle .iconBox .iconCenter {
+    margin: 0 auto;
+    width: 90%;
+  }
+  .middle .iconBox .iconCenter img {
+    margin-left: 42.5%;
+  }
+  .middle .iconBox .iconRight {
+    margin: 0 auto;
+    width: 90%;
+  }
+  .middle .iconBox .iconRight img {
+    margin-left: 42.5%;
+  }
+  .footer {
+    height: 500px;
+  }
+  .footer img.logo {
+    margin-left: 45%;
+  }
+  .footer .linkBox {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+    width: 60%;
+    height: auto;
+  }
+  .footer .linkBox .link1 {
+    padding-top: 5rem;
+    margin-left: 2rem;
+    line-height: 2;
+  }
+  .footer .linkBox .link2 {
+    margin-left: .5rem;
+    line-height: 2;
+  }
+  .footer .linkBox .link3 {
+    margin-left: .5rem;
+    line-height: 2;
+  }
+  .footer div.sBox {
+    margin-right: 6rem;
+    margin-top: 2rem;
   }
 }
 /*# sourceMappingURL=style.css.map */
