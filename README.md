@@ -4,8 +4,6 @@
 
 > FrontEnd Mentor challenge: Clipboard LP
 
-### ✨ [Demo](https://clipboard-lp.now.sh/)
-
 ## Author
 
 👤 **Scott Jellen**
